@@ -1,0 +1,129 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("/img/bkg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.menu-nav {
+  background-color: #fff;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itens-menu {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  color: #000;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+
+.div-clima {
+  text-align: center;
+  width: 104px;
+  background-color: #e5e5e5;
+  height: 84px;
+  margin-left: 34px;
+  padding-top: 20px;
+}
+
+.div-menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  margin-left: 166px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+}
+
+.div-temperatura {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.titulo {
+  font-size: 48px;
+  color: #0a184b;
+  font-weight: 900;
+  font-family: "Work Sans", sans-serif;
+  text-align: justify;
+}
+
+.container {
+  width: 572px;
+  text-align: justify;
+  margin-top: 176px;
+  margin-left: 166px;
+}
+
+.info {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 29px;
+}
+
+.btn {
+  background-color: #ef4d08;
+  width: 250px;
+  height: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.btn-ghost {
+  width: 160px;
+  height: 60px;
+  border: #ef4d08 solid 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ef4d08;
+}
+
+.div-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 29px;
+}
+
+.btn:hover{
+    background-color: #0a184b;
+    cursor: pointer;
+    transform: translateY(-8px);
+}
